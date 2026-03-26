@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marwan Alsweny | Data Analyst</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+h1 span { color: #38bdf8; }
+
+.btn {
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+a { color: #38bdf8; text-decoration: none; }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Marwan <span>Alsweny</span></h1>
+<p>Data Analyst</p>
+
+<button class="btn" onclick="window.open('#projects')">Projects</button>
+<button class="btn" onclick="window.open('Marwan-Hamdy-Alsweny-FlowCV-Resume-20260208.pdf')">Download CV</button>
+
+<div class="section">
+<h2>About Me</h2>
+<p>Computer Science student at Zagazig University passionate about data analysis and dashboards.</p>
+</div>
+
+<div class="section" id="projects">
+<h2>Projects</h2>
+
+<div class="card">Employee Workforce Dashboard</div>
+<div class="card">Sales Performance Dashboard</div>
+<div class="card">Sales Product Marketing Dashboard</div>
+<div class="card">Executive Sales Summary</div>
+
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<p>Excel - Power BI - Tableau - SQL - Python - Data Visualization</p>
+</div>
+
+<div class="section">
+<h2>Soft Skills</h2>
+<p>Problem Solving - Teamwork - Communication - Time Management - Critical Thinking</p>
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<p>Email: m.hseweny@gmail.com</p>
+<p><a href="https://github.com/marwanalsweny">GitHub</a></p>
+<p><a href="https://www.linkedin.com/in/marwan-alsweny-240a1736a">LinkedIn</a></p>
+</div>
+
+</div>
+
+</body>
+</html>
